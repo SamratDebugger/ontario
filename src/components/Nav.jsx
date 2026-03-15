@@ -3,7 +3,7 @@ import NavMenu from "./NavMenu";
 
 export default function Nav() {
   return (
-    <header className="mx-5 sticky top-5">
+    <header className="mx-5 sticky z-50 top-5">
       <div className="navbar bg-white shadow-sm max-w-360 rounded-full px-5 mx-auto  ">
         <div className="navbar-start">
           <div className="dropdown">

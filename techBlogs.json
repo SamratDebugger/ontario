@@ -1,0 +1,33 @@
+[
+    {
+      "id":0,
+      "title":"Modular Devices and Their Role in Modern Workflows",
+      "description":"Surrounded by the hum of a thriving city, our agency’s story began. A single spark ignited the...",
+      "image":"/assets/images/t-1.webp",
+      "tags":["STARTUP","TECHNOLOGY","TRENDS"]
+
+    },
+    {
+      "id":1,
+      "title":"The Use of Fluid Curves in Digital Design Processes",
+      "description": "Amid the fast rhythm of an ever-growing metropolis, the seed of our agency was planted. From one...",
+      "image":"/assets/images/t-2.webp",
+      "tags":["digital", "TRENDS"]
+
+    },{
+      "id":2,
+      "title":"The Impact of Immersive Landscapes in Digital Aesthetics",
+      "description":"In a city brimming with life and opportunity, our journey as a digital agency took its first...",
+      "image":"/assets/images/t-3.webp",
+      "tags":["digital","STARTUP","TECHNOLOGY"]
+      
+
+    },{
+      "id":3,
+      "title":"The Use of Ambient Lighting in Modern AI Spaces",
+      "description":"Deep within a vibrant city alive with energy, our digital agency was born. What began as a...",
+       "image":"/assets/images/t-4.webp",
+      "tags":["ai","news","TRENDS"]
+
+    }
+]

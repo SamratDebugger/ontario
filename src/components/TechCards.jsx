@@ -1,26 +1,19 @@
-export default function TechCards() {
+export default function TechCards({ techBlog }) {
   return (
-    <div className="card bg-base-100 ">
-      <figure>
-        <div className="flex absolute ">
-          <div className="badge">STARTUP</div>
-          <div className="badge">TECHNOLOGY</div>
-          <div className="badge">TRENDS</div>
+    <div className="card rounded-none  ">
+      <figure className="items-start justify-start rounded-3xl">
+        <div className="flex absolute gap-3 p-5 ">
+          {techBlog.tags.map((tag, i) => (
+            <div key={i} className="badge uppercase badge-sm bg-base-100/70">
+              {tag}
+            </div>
+          ))}
         </div>
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-          alt="Shoes"
-        />
+        <img src={techBlog.image} alt={techBlog.title} />
       </figure>
-      <div className="card-body">
-        <h2 className="card-title">Card Title</h2>
-        <p>
-          A card component has a figure, a body part, and inside body there are
-          title and actions parts
-        </p>
-        <div className="card-actions justify-end">
-          <button className="btn btn-primary">Buy Now</button>
-        </div>
+      <div className="card-body px-0 ">
+        <h2 className="card-title">{techBlog.title}</h2>
+        <p>{techBlog.description}</p>
       </div>
     </div>
   );

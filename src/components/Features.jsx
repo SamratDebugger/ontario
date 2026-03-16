@@ -9,7 +9,7 @@ export default function Features() {
     "text-xs  badge badge-soft rounded-full px-4 py-4 badge-sm ";
   return (
     <div className="">
-      <div className="flex flex-wrap items-center justify-between px-5 max-w-4xl mx-auto  ">
+      <div className="flex flex-wrap items-center justify-center gap-2 px-5 max-w-5xl mx-auto  ">
         <div className={` badge-primary ${custombdg} `}>
           <SiGooglegemini />
           AI

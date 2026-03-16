@@ -9,7 +9,7 @@ export default function TechCards({ techBlog }) {
             </div>
           ))}
         </div>
-        <img src={techBlog.image} alt={techBlog.title} />
+        <img className="w-full" src={techBlog.image} alt={techBlog.title} />
       </figure>
       <div className="card-body px-0 ">
         <h2 className="card-title">{techBlog.title}</h2>

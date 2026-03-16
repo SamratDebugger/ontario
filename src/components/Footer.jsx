@@ -5,10 +5,13 @@ import {
   FaXTwitter,
   FaYoutube,
 } from "react-icons/fa6";
+import Newsletter from "./Newsletter";
 
 export default function Footer() {
   return (
     <footer className="bg-base-300">
+      <Newsletter />
+      <div className="divider"></div>
       <div className="footer sm:footer-horizontal  text-base-content p-10 max-w-360 mx-auto justify-between">
         <aside>
           <img src="/assets/images/ontario-logo.svg" alt="logo" />
